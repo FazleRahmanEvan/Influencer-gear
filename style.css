@@ -31,6 +31,7 @@ h2{
     padding-left: 9%;
   
 }
+
 .link-button{
     text-decoration: none;
     color: azure;
@@ -110,4 +111,56 @@ span{
     font-weight: 600;
     padding-left: 90%;
     color:deeppink 
+}
+
+
+/* bonus part  */
+
+.bonus-part{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 130px;
+}
+.important-title{
+    font-size: 33px;
+    font-weight: 600;
+}
+.important-photo{
+    width:480px;
+    height: 270px;
+}
+
+/* footer  */
+
+.footer-part{
+    color: white;
+    background-color:rgb(14, 14, 53);
+    text-align: center;    
+}
+.white-color{
+    color: whitesmoke;
+    font-size: 24px;
+   margin-top: 5px;
+}
+.copy{
+    font-size: 13px;
+}
+.rights{
+    color: gray;
+    font-size:14px ;
+}
+.icon{
+    font-size: 18;
+   
+}
+
+/* media queries */
+
+
+/* mobile devices */
+@media only screen and (max-width: 688px) { 
+    .collections{
+       color: gray ;
+  
+    
 }
