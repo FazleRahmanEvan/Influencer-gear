@@ -1,0 +1,40 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h2{
+    padding-top: 5%;
+   padding-left: 9%;
+}
+
+.container{
+    display: flex;
+    margin-bottom: 160px;
+}
+.half-width{
+    width: 40%;
+    padding-left: 9%;
+}
+.link-button{
+    text-decoration: none;
+    color: azure;
+    background-color:deeppink ;
+    font-weight: 500;
+    padding: 10px 30px;
+    border-radius: 55px;
+}
+.start{
+    font-size: 50px;
+}
+p{
+   font-size: 20px ;
+    
+}
+
+/* popular collection */
+
+.popular{
+    font-size: 34px;
+    text-align: center;
+    padding-right: 9%;
+}
