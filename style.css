@@ -1,3 +1,9 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -5,11 +11,15 @@ body{
 h2{
     padding-top: 5%;
    padding-left: 9%;
+ 
 }
 
 .container{
-    display: flex;
+    
     margin-bottom: 160px;
+}
+.products{
+    display: flex;
 }
 .half-width{
     width: 40%;
